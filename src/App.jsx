@@ -14,14 +14,14 @@ function App() {
         <Link to="/" style={{ marginRight: "10px" }}>Home</Link>
         <Link to="/profile" style={{ marginRight: "10px" }}>Profile</Link>
         <Link to="/settings">Settings</Link>
-        <Link to="/Name Card">Name Card</Link>
+        <Link to="/namecard">Name Card</Link>
       </nav>
 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/settings" element={<Settings />} />
-        <Route path="/Name Card" element={<NameCard/>} />
+        <Route path="/namecard" element={<NameCard/>} />
       </Routes>
     </div>
   )
