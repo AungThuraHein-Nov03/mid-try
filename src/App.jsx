@@ -14,7 +14,7 @@ function App() {
         <Link to="/" style={{ marginRight: "10px" }}>Home</Link>
         <Link to="/profile" style={{ marginRight: "10px" }}>Profile</Link>
         <Link to="/settings">Settings</Link>
-        <Link to="/namecard">Name Card</Link>
+        <Link to="/Name Card">Name Card</Link>
       </nav>
 
       <Routes>
