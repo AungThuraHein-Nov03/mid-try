@@ -2,7 +2,7 @@ import pfpImage from "../assets/cf38713afe63c6d5b6a4460eef2aadc4.jpg"
 
     function NameCard() {
         return(
-            <div className="card">
+            <div className="card"> 
             <img src={pfpImage} alt="Profile Photo" className="profile-photo" style={{width: '150px', borderRadius: '50%'}}/>
             <h1 className="name">John Doe</h1>
             <p className="title">Senior Software Engineer</p>

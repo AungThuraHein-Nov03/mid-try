@@ -5,18 +5,13 @@ import Settings from "./components/settings.jsx"
 import Profile from "./components/profile.jsx"
 import Home from "./components/home.jsx"
 import NameCard from "./components/namecard.jsx"
-
+import Buttons from "./components/buttons.jsx"
 
 function App() {
   return (
       <div>
-      <nav style={{ padding: "10px", borderBottom: "1px solid black" }}>
-        <Link to="/" style={{ marginRight: "10px" }}>Home</Link>
-        <Link to="/profile" style={{ marginRight: "10px" }}>Profile</Link>
-        <Link to="/settings">Settings</Link>
-        <Link to="/namecard">Name Card</Link>
-      </nav>
-
+      
+      <Buttons />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
